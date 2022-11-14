@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+}
+
+p::first-letter{
+    font-size: 150%;
+    font-weight: bold;
+}
+::first-line{
+    background-color: black;
+    color: white;
+}
+::selection {
+    background-color: cyan;
+}
+p::before {
+    content: "////////////////////////////////";
+    display: block;
+}
+p::after {
+    content: "......";
+    display: block;
+}
+/* this are the examples of psuedo selectors*/
