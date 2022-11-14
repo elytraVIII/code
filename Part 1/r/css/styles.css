@@ -1,0 +1,16 @@
+body {
+    margin: 10px;
+}
+p {
+    color: bisque;
+    border: 1px solid salmon;
+}
+strong {
+    color: initial;
+    border: inherit;
+}
+
+/*
+initial defaults the value
+inherit get values from parent
+*/
