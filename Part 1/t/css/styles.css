@@ -1,0 +1,20 @@
+body {
+    margin: 10px;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    background: lightpink;
+    background: linear-gradient(to top, lightpink, salmon); 
+/* 
+use background first for fallback if some browser doesn't support gradient
+gradient are of 2 types linear gradient
+                        radial gradient
+                                        to 
+                                            top
+                                            bottom
+                                                    in combination of direction or degree with color value as 1st value, second value
+                                                                        left        0 to        name,hex,rgb,rgba,hsl,hsla
+                                                                        right       360
+
+                                                                        */
