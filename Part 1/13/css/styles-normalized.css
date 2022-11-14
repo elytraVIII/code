@@ -1,0 +1,7 @@
+body {
+    margin: 10px;
+}
+/* after using normalize.css always have to use margin */
+p {
+    color: blueviolet;
+}

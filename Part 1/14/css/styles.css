@@ -1,0 +1,23 @@
+body {
+    margin: 10px;
+}
+/*that is how we select a element*/
+#products {
+    color: aqua;
+}
+/*that is how we select a id attribute and id is unique identifier*/
+.product {
+    color: aquamarine;
+}
+/*that is how we select a class*/
+a[href="https://google.com"] {
+    color: black;
+}
+/* 
+ this is how we select with attributes and conditions
+ a[href*="google"] = wildcard
+ a[href^="https"] = starts with
+ a[href$=".com"] = ends with
+ multiple conditions
+ a[href*="google"][href^="https"][href$=".com"] = where wildcard is google and it starts with https and ends with .com
+*/

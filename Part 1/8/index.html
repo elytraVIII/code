@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indexer</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
+    </style>
+    <!-- 
+            here border is defined to be of 1px of solid attribute and black colour
+            border collapsing is set to collapse the border
+            padding is space to be left from border
+    -->
+  </head>
+  <body>
+    <!-- is used for displaying tabulor data only-->
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <!-- in thead first row in th element uses column expansion to 2 -->
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+        <!-- in second row we created th element it stands header cell-->
+      </thead>
+      <!-- here we have created table header ^ -->
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <!-- here td stands for data cell -->
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <!-- here we have created table body ^ -->
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+      <!-- footer of table -->
+    </table>
+  </body>
+</html>
