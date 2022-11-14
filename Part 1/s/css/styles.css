@@ -2,7 +2,7 @@ body {
     margin: 10px;
 }
 .box {
-    width: 300px;
+    width: 300px; /*  can be made rectangle by increasing width or height*/
     height: 300px;
     background-color: salmon; 
     /* 
