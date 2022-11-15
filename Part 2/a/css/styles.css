@@ -1,0 +1,20 @@
+body {
+    margin: 10px;
+}
+ 
+p {
+    margin: 20px; 
+    padding: 0;
+    /* top right botton left values can also be defined
+    padding: 10px 20px; first value is vertical padding second is horizontal
+    */
+}
+/* margin area (used for seprating elements) > 
+    border (used for creating border) > 
+        padding (to leave space against borders) >
+            content area (where the main content is situated)
+
+            if two elements are close to each otherr it automatically collapses margin
+            use margin for seprating elements
+            padding for adding space beetween border and content
+*/
