@@ -10,5 +10,6 @@ body {
  > direct child 
  + first sibling 
  ~ general siblings
+ :nth-child() value can be number , odd or even 
  premature optimization is the root of all evil
  */
